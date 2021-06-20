@@ -1,0 +1,29 @@
+*{
+    border: solid
+}
+body{
+    background-color: #926538;
+}
+
+h1 {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 50px;
+    color: #000000;
+    font-family:Comic Sans MS
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.item a{
+    padding:15px;
+}
